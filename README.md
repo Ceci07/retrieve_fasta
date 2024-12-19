@@ -1,16 +1,24 @@
 # retrieve_fasta tool
 
-usage: extract_fasta.py [-h] -i INPUT -a ACCESSIONS -o OUTPUT
+*Usage*  
 
-Extract sequences from a multi-FASTA file based on a list of accessions.
+```
+extract_fasta.py [-h] -i INPUT -a ACCESSIONS -o OUTPUT
+```
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
+*Extract sequences from a multi-FASTA file based on a list of accessions.*
+
+options:  
+-h, --help            show this help message and exit
+-i INPUT, --input INPUT
                         Input multi-FASTA file containing the sequences.
-  -a ACCESSIONS, --accessions ACCESSIONS
+-a ACCESSIONS, --accessions ACCESSIONS
                         Text file containing a list of accession numbers, one per line.
-  -o OUTPUT, --output OUTPUT
+-o OUTPUT, --output OUTPUT
                         Output FASTA file to save the extracted sequences.
 
-Example: python extract_fasta.py -i input.fasta -a accessions.txt -o output.fasta
+*Example*  
+
+```
+python extract_fasta.py -i input.fasta -a accessions.txt -o output.fasta
+```
