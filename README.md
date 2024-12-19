@@ -26,26 +26,28 @@ extract_fasta.py [-h] -i INPUT -a ACCESSIONS -o OUTPUT
 **Extract sequences from a multi-FASTA file based on a list of accessions.**
 
 options:  
-```
--h, --help
-```
 **show this help message and exit**  
 
 ```
--i INPUT, --input INPUT
+-h, --help
 ```
 **Input multi-FASTA file containing the sequences.**  
 
 ```
+-i INPUT, --input INPUT
+```
+
+**Text file containing a list of accession numbers, one per line.**  
+
+```
 -a ACCESSIONS, --accessions ACCESSIONS
 ```
-**Text file containing a list of accession numbers, one per line.**  
+
+**Output FASTA file to save the extracted sequences.**  
 
 ```
 -o OUTPUT, --output OUTPUT
 ```
-**Output FASTA file to save the extracted sequences.**  
-
 
 **Example**  
 
