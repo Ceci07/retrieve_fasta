@@ -1,18 +1,18 @@
 # retrieve_fasta tool
 
-Extract sequences from a multi-FASTA file based on a list of accessions.
-E.g: SILVA database accessions
-accessions.txt
-AACK01000032
-AACY020355234
-AACY020469094
-AACY020551516
-AACY020558197
-AAFJ01000001
-AAFJ01000001
-AAFJ01000008
-AAFL01000001
-AAFL01000004
+Extract sequences from a multi-FASTA file based on a list of accessions.  
+E.g: SILVA database accessions  
+accessions.txt  
+AACK01000032  
+AACY020355234  
+AACY020469094  
+AACY020551516  
+AACY020558197  
+AAFJ01000001  
+AAFJ01000001  
+AAFJ01000008  
+AAFL01000001  
+AAFL01000004  
 
 
 
